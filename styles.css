@@ -14,3 +14,25 @@ body {
   background: #01bfff;
   justify-content: center;
 }
+
+.wrapper {
+  height: 265px;
+  max-width: 410px;
+  background: #fff;
+  border-radius: 7px;
+  padding: 20px 25px 0;
+  transition: height 0.2s ease;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.wrapper.active {
+  height: 530px;
+}
+header h1 {
+  font-size: calc(21 / 16 * 1rem);
+  font-weight: 600;
+}
+header p {
+  margin-top: 5px;
+  color: #575757;
+  font-size: calc(16 / 16 * 1rem);
+}
