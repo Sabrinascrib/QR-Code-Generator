@@ -13,6 +13,7 @@ body {
   align-items: center;
   background: #01bfff;
   justify-content: center;
+  flex-direction: column;
 }
 
 .wrapper {
@@ -83,4 +84,21 @@ header p {
 }
 .qr-code img {
   width: 170px;
+}
+
+footer {
+  color: #0086b3;
+  text-align: center;
+  position: fixed;
+  bottom: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #0086b3;
+  border-bottom: 1px #0086b3 solid;
+}
+
+footer a:hover {
+  border-bottom: 3px #0086b3 solid;
 }
